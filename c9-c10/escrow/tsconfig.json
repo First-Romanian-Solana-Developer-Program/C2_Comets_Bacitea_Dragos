@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@solana/web3.js": [
+        "node_modules/@solana/web3.js"
+      ]
+    },
+    "types": [
+      "mocha",
+      "chai",
+      "@solana/web3.js"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules",
+      "node_modules/@coral-xyz/anchor"
+    ],
+    "lib": [
+      "es2015"
+    ],
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true
+  }
+}
